@@ -133,7 +133,7 @@ article img{width:100%;}
 .con{
     display:grid;
     margin:0px auto;
-    max-width:500px;
+    max-width:414px;
     padding:0px 1%;
     box-sizing:border-box;
     grid-template-columns:auto;
@@ -149,7 +149,7 @@ article img{width:100%;}
 .con article{
     /* background:#ffff00;
     height:270px; */
-    margin-bottom:5px 0px;
+    margin-bottom:10px;
 }
 .con .new_item{grid-area:item;}
 .con .brand{grid-area:brand;}
