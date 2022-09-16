@@ -7,6 +7,7 @@ body{
     font-family: 'Noto Sans KR', sans-serif;
     font-size:12px;
     color:#333333;
+    background-image:url('../images/bg01.jpg');
 }
 
 a{
@@ -15,6 +16,10 @@ a{
 }
 
 input[type='checkbox']{display:none;}
+
+header , .store{
+    background-color:#fff;
+}
 
 .slide > h2, .new_item > h2, .brand > h2, .ad > h2, .store > h2{
     display:none;
@@ -51,9 +56,7 @@ i.fa-plus{
     padding-top:6px;
 }
 .notice li, .news li{
-    width:450px;
     line-height:220%;
-    text-indent:10px;
     overflow:hidden;/*영역을 벗어난 콘텐츠 숨기기*/
     text-overflow:ellipsis;/*텍스트가 넘치면 생략기호 나오게 하기*/
     white-space:nowrap;/*글자 다음줄로 넘기지 않기*/
@@ -64,9 +67,12 @@ i.fa-plus{
 
 footer{
     border-top:1px solid #333333;
+    background-color:rgba(255,255,255,0.7);
 }
 address{
     font-style:normal;
     text-align:center;
     line-height:160%;
 }
+
+#sh{text-align:center;}
